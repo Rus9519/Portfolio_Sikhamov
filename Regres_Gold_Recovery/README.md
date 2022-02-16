@@ -26,15 +26,13 @@
 
 <img src="https://latex.codecogs.com/svg.image?sMAPE&space;=&space;\frac{1}{N}&space;\sum_{i=1}^N(\frac{|y_i&space;-&space;\hat{y_i}|}{(|y_i|&space;&plus;&space;|\hat{y_i}|)/2})&space;\times&space;100\%" title="sMAPE = \frac{1}{N} \sum_{i=1}^N(\frac{|y_i - \hat{y_i}|}{(|y_i| + |\hat{y_i}|)/2}) \times 100\%" />
 
-<img src="https://render.githubusercontent.com/render/math?math=sMAPE=\frac{1}{N}\sum_{i=1}^N\frac{|y_i-\hat{y_i}|}{(|y_i|\! + |\hat{y_i}|\!)/2}">
-
 Нужно предсказывать сразу две величины:
 - эффективность обогащения после флотации *rougher.output.recovery*
 - эффективность обогащения финального концентрата *final.output.recovery*
 
 Итоговая метрика учитывает обе величины и вычисляется как:
 
-<img src="https://render.githubusercontent.com/render/math?math=sMAPE_{total} = 0.25 \times sMAPE(rougher) + 0.75 \times sMAPE(final)">
+<img src="https://latex.codecogs.com/svg.image?sMAPE_{total}&space;=&space;0.25&space;\times&space;sMAPE(rougher)&space;&plus;&space;0.75&space;\times&space;sMAPE(final)" title="sMAPE_{total} = 0.25 \times sMAPE(rougher) + 0.75 \times sMAPE(final)" />
 
 ## Технологический процесс
 Технологический процесс состоит из флотации и двухэтапной очистки.
