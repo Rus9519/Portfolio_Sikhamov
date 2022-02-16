@@ -17,14 +17,14 @@
 
 ![](https://latex.codecogs.com/svg.image?recovery=\frac{C\times(F&space;-&space;T)}{F\times&space;(C&space;-&space;T)})
 
-<img src="https://render.githubusercontent.com/render/math?math=recovery = \frac{C \times (F - T)}{F \times (C - T)}">
-
 где: 
 - C - доля золота в концентрате после флотации/очистки,
 - F - доля золота в сырье/концентрате до флотации/очистки,
 - T - доля золота в отвальных хвостах после флотации/очистки.
 
 В качестве метрики качества использовать sMAPE (англ. Symmetric Mean Absolute Percentage Error, «симметричное среднее абсолютное процентное отклонение»), вычисляющееся по формуле:
+
+<img src="https://latex.codecogs.com/svg.image?sMAPE&space;=&space;\frac{1}{N}&space;\sum_{i=1}^N(\frac{|y_i&space;-&space;\hat{y_i}|}{(|y_i|&space;&plus;&space;|\hat{y_i}|)/2})&space;\times&space;100\%" title="sMAPE = \frac{1}{N} \sum_{i=1}^N(\frac{|y_i - \hat{y_i}|}{(|y_i| + |\hat{y_i}|)/2}) \times 100\%" />
 
 <img src="https://render.githubusercontent.com/render/math?math=sMAPE=\frac{1}{N}\sum_{i=1}^N\frac{|y_i-\hat{y_i}|}{(|y_i|\! + |\hat{y_i}|\!)/2}">
 
