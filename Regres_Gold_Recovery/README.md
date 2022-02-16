@@ -16,7 +16,7 @@
 Коэффициент восстановления золота рассчитывается по следующей формуле:
 
 <img src="https://render.githubusercontent.com/render/math?math=recovery = \frac{C \times (F - T)}{F \times (C - T)}">
-$$recovery = \frac{C \times (F - T)}{F \times (C - T)}$$
+
 где: 
 - C - доля золота в концентрате после флотации/очистки,
 - F - доля золота в сырье/концентрате до флотации/очистки,
@@ -24,11 +24,11 @@ $$recovery = \frac{C \times (F - T)}{F \times (C - T)}$$
 
 В качестве метрики качества использовать sMAPE (англ. Symmetric Mean Absolute Percentage Error, «симметричное среднее абсолютное процентное отклонение»), вычисляющееся по формуле:
 
-$$sMAPE = \frac{1}{N} \sum_{i=1}^N(\frac{|y_i - \hat{y_i}|}{(|y_i| + |\hat{y_i}|)/2}) \times 100\%$$ 
+<img src="https://render.githubusercontent.com/render/math?math=sMAPE = \frac{1}{N} \sum_{i=1}^N(\frac{|y_i - \hat{y_i}|}{(|y_i| + |\hat{y_i}|)/2}) \times 100\%">
 где:
-- $y_i$ - значение целевого признака для объекта с порядковым номером i,
-- $\hat{y_i}$ - значение предсказания для объекта с порядковым номером i,
-- $N$ - количество объектов.
+- <img src="https://render.githubusercontent.com/render/math?math=y_i"> - значение целевого признака для объекта с порядковым номером i,
+- <img src="https://render.githubusercontent.com/render/math?math=\hat{y_i}"> - значение предсказания для объекта с порядковым номером i,
+- N - количество объектов.
 
 Нужно предсказывать сразу две величины:
 - эффективность обогащения после флотации *rougher.output.recovery*
@@ -36,7 +36,7 @@ $$sMAPE = \frac{1}{N} \sum_{i=1}^N(\frac{|y_i - \hat{y_i}|}{(|y_i| + |\hat{y_i}|
 
 Итоговая метрика учитывает обе величины и вычисляется как:
 
-$$sMAPE_{total} = 0.25 \times sMAPE(rougher) + 0.75 \times sMAPE(final)$$
+<img src="https://render.githubusercontent.com/render/math?math=sMAPE_{total} = 0.25 \times sMAPE(rougher) + 0.75 \times sMAPE(final)">
 
 ## Технологический процесс
 Технологический процесс состоит из флотации и двухэтапной очистки.
