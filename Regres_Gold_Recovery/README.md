@@ -24,7 +24,7 @@
 
 В качестве метрики качества использовать sMAPE (англ. Symmetric Mean Absolute Percentage Error, «симметричное среднее абсолютное процентное отклонение»), вычисляющееся по формуле:
 
-<img src="https://render.githubusercontent.com/render/math?math=sMAPE=\frac{1}{N}\sum_{i=1}^N(\frac{|y_i - \hat{y_i}|}{(|y_i| + |\hat{y_i}|)/2})\times100\%">
+<img src="https://render.githubusercontent.com/render/math?math=sMAPE=\frac{1}{N}\sum_{i=1}^N(\frac{|y_i-\hat{y_i}|}{(|y_i|+|\hat{y_i}|)/2})">
 где:
 - <img src="https://render.githubusercontent.com/render/math?math=y_i"> - значение целевого признака для объекта с порядковым номером i,
 - <img src="https://render.githubusercontent.com/render/math?math=\hat{y_i}"> - значение предсказания для объекта с порядковым номером i,
