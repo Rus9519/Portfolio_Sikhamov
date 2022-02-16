@@ -15,7 +15,7 @@
 
 Коэффициент восстановления золота рассчитывается по следующей формуле:
 
-<img src="https://latex.codecogs.com/svg.image?$$&space;recovery&space;=&space;\frac{C&space;\times&space;(F&space;-&space;T)}{F&space;\times&space;(C&space;-&space;T)}&space;$$" title="recovery = \frac{C \times (F - T)}{F \times (C - T)}" />
+![](https://latex.codecogs.com/svg.image?recovery=\frac{C\times(F&space;-&space;T)}{F\times&space;(C&space;-&space;T)})
 
 <img src="https://render.githubusercontent.com/render/math?math=recovery = \frac{C \times (F - T)}{F \times (C - T)}">
 
