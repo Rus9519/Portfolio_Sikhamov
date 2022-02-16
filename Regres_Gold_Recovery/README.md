@@ -15,7 +15,7 @@
 
 Коэффициент восстановления золота рассчитывается по следующей формуле:
 
-<img src="https://render.githubusercontent.com/render/math?math=recovery = \frac{C \times (F - T)}{F \times (C - T)}">
+<img src="https://render.githubusercontent.com/render/math?math=(recovery = \frac{C \times (F - T)}{F \times (C - T)})">
 
 где: 
 - C - доля золота в концентрате после флотации/очистки,
